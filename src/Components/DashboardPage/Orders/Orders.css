@@ -1,0 +1,14 @@
+.focus1 {
+  transition: transform 0.3s;
+  width: 30%;
+}
+
+.focus1:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .focus1 {
+    width: 50%;
+  }
+}

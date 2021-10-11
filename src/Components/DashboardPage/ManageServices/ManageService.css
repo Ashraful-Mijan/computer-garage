@@ -1,0 +1,10 @@
+.manageBackground {
+  background-color: #12161f;
+  height: 980px;
+}
+
+@media (max-width: 600px) {
+  .manageBackground {
+    height: 1050px;
+  }
+}

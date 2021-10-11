@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  overflow-x: hidden;
+  background-image: url("../../../Images//Optimized-banner\ 1\ \(2\).jpg");
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 100%;
+  background: #0a0b1a;
+  opacity: 0.5;
+  height: 100%;
+  z-index: -1;
+}
+
+.review {
+  height: 300px;
+  width: 700px !important;
+}
+.color {
+  background: transparent;
+  color: white !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+@media (max-width: 600px) {
+  .review {
+    height: 300px;
+    width: 320px !important;
+  }
+}
